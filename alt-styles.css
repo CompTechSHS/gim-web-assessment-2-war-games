@@ -42,7 +42,7 @@ header .logo {
    Make nav links stand out with the accent colour.
    ------------------------------------ */
 nav ul li a {
-  color: #ff6347;
+  color: #6bd6f7;
 }
 
 /* ------------------------------------
@@ -56,6 +56,7 @@ nav ul li a {
   gap: 1em;
   width: 95%;
   margin: 1em auto;
+  color:#6bd6f7;
 }
 
 /* ------------------------------------
@@ -63,6 +64,15 @@ nav ul li a {
    ------------------------------------
    Accent borders around featured images to match theme colour.
    ------------------------------------ */
-.hero img {
-  border: 5px solid #ff6347;
+img {
+  border: 10px solid #6bd6f7;
+  border-style:double;
+}
+H1,h2{
+text-align:center; 
+color:antiquewhite;
+
+}
+p,li{
+   color:antiquewhite
 }
