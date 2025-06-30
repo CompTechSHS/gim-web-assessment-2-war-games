@@ -10,7 +10,7 @@
    Use monospace font, dark background and light text for readability.
    ------------------------------------ */
 body {
-  font-family: 'Courier New', monospace;
+  font-family: 'Times new roman', monospace;
   background: #222;
   color: #eee;
 }
