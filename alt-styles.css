@@ -11,7 +11,7 @@
    ------------------------------------ */
 body {
   font-family: 'Times new roman', monospace;
-  background: #222;
+  background: #394c72;
   color: #eee;
 }
 
@@ -21,7 +21,7 @@ body {
    Darker background for header and footer to distinguish sections.
    ------------------------------------ */
 header, footer {
-  background: #333;
+  background: #201e1e;
 }
 
 /* ------------------------------------
@@ -33,7 +33,7 @@ header .logo {
   font-size: 1.8em;
   color: #ff6347;
   text-align: center;
-  padding: 0.5em 0;
+  padding: 0.5em 0.5;
 }
 
 /* ------------------------------------
@@ -76,3 +76,4 @@ color:antiquewhite;
 p,li{
    color:antiquewhite
 }
+
