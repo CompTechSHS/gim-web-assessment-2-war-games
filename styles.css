@@ -15,9 +15,9 @@
    Set the overall font, text colour, background colour and line spacing.
    ======================== */
 body {
-  font-family: Arial, sans-serif;
-  color: #333;
-  background: #fff;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #0a1d61;
+  background: antiquewhite;
   line-height: 1.5;
 }
 
@@ -38,9 +38,10 @@ body {
    Add background colour, centre text and padding for site header/footer.
    ======================== */
 header, footer {
-  background: #f4f4f4;
+  background: #394c72;
   text-align: center;
   padding: 1em;
+  color:#ff6347
 }
 
 /* ========================
@@ -51,9 +52,11 @@ header, footer {
 nav {
   text-align: center;
   margin: 0.5em 0;
+    background:#5979b788
 }
 nav a {
   margin: 0 0.5em;
   text-decoration: none;
-  color: #333;
+  color: antiquewhite ;
 }
+
