@@ -10,8 +10,8 @@
    Use monospace font, dark background and light text for readability.
    ------------------------------------ */
 body {
-  font-family: 'Courier New', monospace;
-  background: #222;
+  font-family: 'Trebuchet MS', monospace;
+  background: #394c72;
   color: #eee;
 }
 
@@ -21,7 +21,8 @@ body {
    Darker background for header and footer to distinguish sections.
    ------------------------------------ */
 header, footer {
-  background: #333;
+  background: #201e1e;
+    border: 3px solid #6bd6f7;
 }
 
 /* ------------------------------------
@@ -33,7 +34,8 @@ header .logo {
   font-size: 1.8em;
   color: #ff6347;
   text-align: center;
-  padding: 0.5em 0;
+  padding: 0.5em 0.5;
+  
 }
 
 /* ------------------------------------
@@ -42,7 +44,7 @@ header .logo {
    Make nav links stand out with the accent colour.
    ------------------------------------ */
 nav ul li a {
-  color: #ff6347;
+  color: #6bd6f7;
 }
 
 /* ------------------------------------
@@ -56,6 +58,8 @@ nav ul li a {
   gap: 1em;
   width: 95%;
   margin: 1em auto;
+  color:#6bd6f7;
+  
 }
 
 /* ------------------------------------
@@ -63,6 +67,31 @@ nav ul li a {
    ------------------------------------
    Accent borders around featured images to match theme colour.
    ------------------------------------ */
-.hero img {
-  border: 5px solid #ff6347;
+img {
+  border: 10px solid #6bd6f7;
+  border-style:groove;
+ 
 }
+H1,h2{
+text-align:center; 
+color:antiquewhite;
+background:#201e1e;
+text-decoration: underline;
+text-decoration-color: #ff6347;
+border:3px solid, #ff6347;  
+
+
+
+}
+p,li{
+   color:antiquewhite;
+   list-style-type:square;
+   
+   
+}
+div{
+   background:#394c7264;
+  
+ 
+}
+
